@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+                <title>lamar.academy</title>
+                <link rel="stylesheet" href="./style.css" />
+                <meta name="description" content="Lamar Academy">
+                <link rel="icon" href="favicon.png">
+                <meta property="og:type" content="profile">
+                <meta property="og:title" content="Lamar Academy">
+                <meta property="og:description" content="International Baccalaureate Sector">
+                <meta property="og:url" content="index.html">
+                <meta property="og:text1" content="1">
+                <meta name="theme-color" content="#191919">
+                <script src="https://kit.fontawesome.com/a74e760d1f.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+                <div class="container">
+                        <form id="search-form" class="search-bar">
+                                <input type="text" name="search" placeholder="name search" id="search-bar">
+                                <button type="submit"><img src="search.png"></button>
+
+                                <ul id="suggestion-list"></ul>
+                        </form>
+                </div>
+                <script>
+                        const names = ["aaron", "julian", "lucas"];
+
+                        const searchBar = document.getElementById("search-bar");
+                        const suggestionList = document.getElementById("suggestion-list");
+
+                        searchBar.addEventListener("input", function() {
+                          suggestionList.innerHTML = "";
+
+                          const searchValue = this.value.toLowerCase();
+
+                          for (let i = 0; i < names.length; i++) {
+                            const name = names[i].toLowerCase();
+                            if (name.startsWith(searchValue)) {
+                              const li = document.createElement("li");
+                              li.innerText = names[i];
+                              suggestionList.appendChild(li);
+                            }
+                          }
+                        });
+
+
+
+                        suggestionList.addEventListener("click", function(event) {
+                          if (event.target && event.target.nodeName === "LI") {
+                            const name = event.target.innerText;
+                            window.open(`https://lamar.academy/${name}`,'_self');
+                          }
+                        });
+
+
+
+                           $('#search-bar').keyup(function() {
+                              $('#suggestion-list').show();
+                           });
+
+                </script>
+        </body>
+</html>
