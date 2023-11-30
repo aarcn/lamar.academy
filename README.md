@@ -33,7 +33,6 @@ After showing this project to my school, they offered to use the website in plac
 ## Built With
 * HTML
 * CSS
-* JavaScript
 
 ## Usage
 
