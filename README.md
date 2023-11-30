@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://lamar.academy"><img src="https://i.imgur.com/LBb14Sl.png" alt="Lamar Academy | International Baccalaureate" width=35%></a>
+  <a href="https://lamar.academy" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/LBb14Sl.png" alt="Lamar Academy | International Baccalaureate" width=35%></a>
 </p>
 
 <h3 align="center">lamar.academy</h3>
