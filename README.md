@@ -5,7 +5,6 @@
 <h3 align="center">lamar.academy</h3>
 <p align="center">For IB, by IB.</p>
 <br>
-
 <details open>
 <summary>Table of Contents</summary>
 
