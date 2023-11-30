@@ -10,8 +10,8 @@
 <summary>Table of Contents</summary>
 
 * [About the Project](#about-the-project)
-* [Built With](#built-with)
 * [Usage](#usage)
+* [Built With](#built-with)
 </details>
 <br>
 
@@ -33,12 +33,12 @@ After showing this project to my school, they offered to use the website on thei
 </p>
 <p align="center"><i>As seen on <a href="https://instagram.com/lamar_academy">@lamar_academy</a>!</i></p>
 
-## Built With
-* HTML
-* CSS
-
 ## Usage
 
 This website's literal purpose is to display Lamar Academy student resources, social media redirects, and additional associated websites.
 <br>
 Subsequently, this website is a demonstration of humility and can hopefully inspire other new software developers to act similarly.
+
+## Built With
+* HTML
+* CSS
