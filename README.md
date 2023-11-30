@@ -18,9 +18,13 @@
 
 ## About the Project
 
-With McAllen ISD's new addition of an IB Computer Science program, it is important for aspiring software engineers to become motivated to put their work out for the world to see, judge, and condemn as constructive criticism is vital for growth. I wanted to put my first service "project" on display to show others how awful it is. I believe modesty is essential for development, as it prevents your ego from becoming the death of you. So... what better way to express this than by uploading one of my first works!
+In light of McAllen ISD's new IB Computer Science curriculum, it is important to express the need for aspiring software engineers to become motivated to put their work out for the world to see, judge, and condemn as constructive criticism is vital for growth. This will ultimately allow these students to become role models for the following classes to come. As a part of the first cohort enrolled in this new program, I wanted to take the first step and put my first "service" project on display to show others how awful it is.
 <br>
-After showing this project to my school, they offered to use the website in place of their linktr.ee. This would have never happened if I kept my work private...
+It's truly awful!
+<br>
+However, I believe modesty is essential for development, as it prevents your ego from becoming the death of you. So... what better way to illustrate modesty than by uploading one of my first works!
+<br>
+After showing this project to my school, they offered to use the website on their Instagram page! This would have never happened if I kept my work private...
 <br>
 <br>
 <br>
