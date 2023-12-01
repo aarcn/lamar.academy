@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding-top: 3.5em;
+  color: #fff;
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25); 
+}
+.line-1{
+    position: relative;
+    top: 10%;  
+    width: 13em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 220%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.ib{
+    position: relative;
+    color: #fff;
+    top: 10%;  
+    margin: 0 auto;
+    font-size: 120%;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);  
+    opacity: 0;
+    animation: fadeInUp 2s ease 3.5s forwards;  
+}
+
+.anim-typewriter{
+  animation: typewriter 2.2s steps(19) 0.9s 1 normal both,
+             blinkTextCursor 500ms steps(19) 0s 13 normal both;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10.3em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.socials {
+  opacity: 0;
+  animation: fadeInUp 2s ease 4s forwards; 
+}
+
+.singleCol {
+  margin: 0;
+  padding: 7.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.social-media-icons-white a {
+  color: rgba(255,255,255,.75);
+  font-size: 2rem;
+}
