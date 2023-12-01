@@ -10,153 +10,46 @@
                 <link rel="icon" href="favicon.png">
                 <meta property="og:type" content="profile">
                 <meta property="og:title" content="Lamar Academy">
-                <meta property="og:description" content="International Baccalaureate Sector">
+                <meta property="og:description" content="McAllen Independent School District">
                 <meta property="og:url" content="index.html">
                 <meta property="og:text1" content="1">
-                <meta name="theme-color" content="#191919">
+                <meta name="theme-color" content="#83de9d">
                 <script src="https://kit.fontawesome.com/a74e760d1f.js" crossorigin="anonymous"></script>
-                <style>
-                        @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Anonymous Pro', monospace;  
-}
-
-  .container {
-    background-image: url(/favicon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 14%;
-    background-size: 11em;
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    background-color: rgb(25,25,25);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .search-bar {
-    width: 100%;
-    max-width: 700px;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    padding: 10px 20px;
-    backdrop-filter: blur(4px) saturate(180%);
-  }
-
- .search-bar input {
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
-    font-size: 20px;
-    color: #cac7ff;
-  }
-
-  ::placeholder {
-    color: #cac7ff;
-  }
-
-  .search-bar button img{
-    width: 25px;
-  }
-
-  .search-bar button {
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #58629b;
-    cursor: pointer;
-  }
-
-  #search-bar {
-    position: relative;
-  }
-  
-  #suggestion-list {
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translate(-50%, 2%);
-    width: 200px;
-    margin: 0 auto;
-  }
-
-  #suggestion-list {
-    color: #cac7ff;
-    list-style-type: none;
-    align-items: center;
-    background: transparent;
-    width: 100%;
-    max-width: 700px;
-    background: rgba(197, 197, 197, 0.2);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    padding: 8px 36px;
-    backdrop-filter: blur(4px) saturate(180%);
- }
-
- li{
-  margin: 13px 0;
-}
-                </style>
         </head>
         <body>
-                <div class="container">
-                        <form id="search-form" class="search-bar">
-                                <input type="text" name="search" placeholder="name search" id="search-bar">
-                                <button type="submit"><img src="search.png"></button>
+                <p class="line-1 anim-typewriter"><span style="color: #58d4c4;">lamar.academy</span></p>
+                <p class="ib">McAllen Independent School District</p>
 
-                                <ul id="suggestion-list"></ul>
+                <div class="socials">
+                        <div class="singleCol social-media-icons-white">
+                                <a href="https://instagram.com/lamar_academy" target="_blank" rel="noreferrer noopener">
+                                        <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://tiktok.com/@lamar_academy" target="_blank" rel="noreferrer noopener">
+                                <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                                <a href="https://facebook.com/LamarAcademyPhoenix" target="_blank" rel="noreferrer noopener">
+                                <i class="fa-brands fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/lamar_academy" target="_blank" rel="noreferrer noopener">
+                                <i class="fa-brands fa fa-twitter"></i>
+                                </a>
+                        </div>
+                </div>
+                <br>
+                <div class="container">
+                        <form class="bubbles">
+                        <ul>
+                                <li><a href="https://smore.com/qsm8e"><i class="fa fa-users" ></i>              Phoenix Central</a></li>
+                                <br>
+                                <li><a href="https://lamar.mcallenisd.org/"><i class="fa fa-graduation-cap"></i>                Lamar Academy</a></li>
+                                <br>
+                                <li><a href="https://sites.google.com/mcallenisd.net/lamaracademy/home"><i class="fa fa-google"></i>            Google Site</a></li>
+                                <br>
+                                <li><a href="https://spotify.link/K1HOAjiH3xb"><i class="fa-brands fa-spotify"></i>            IBee Podcasting</a></li>
+                        </ul>
                         </form>
                 </div>
-                <script>
-                        const names = ["aaron", "julian", "lucas"];
 
-                        const searchBar = document.getElementById("search-bar");
-                        const suggestionList = document.getElementById("suggestion-list");
-
-                        searchBar.addEventListener("input", function() {
-                          suggestionList.innerHTML = "";
-
-                          const searchValue = this.value.toLowerCase();
-
-                          for (let i = 0; i < names.length; i++) {
-                            const name = names[i].toLowerCase();
-                            if (name.startsWith(searchValue)) {
-                              const li = document.createElement("li");
-                              li.innerText = names[i];
-                              suggestionList.appendChild(li);
-                            }
-                          }
-                        });
-
-
-
-                        suggestionList.addEventListener("click", function(event) {
-                          if (event.target && event.target.nodeName === "LI") {
-                            const name = event.target.innerText;
-                            window.open(`https://lamar.academy/${name}`,'_self');
-                          }
-                        });
-
-
-
-                           $('#search-bar').keyup(function() {
-                              $('#suggestion-list').show();
-                           });
-
-                </script>
         </body>
 </html>
