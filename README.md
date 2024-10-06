@@ -29,7 +29,7 @@ In light of McAllen ISD's new IB Computer Science curriculum, it is important to
 
 This website's literal purpose is to display Lamar Academy student resources, social media redirects, and additional associated websites.
 <br>
-Subsequently, this website is a demonstration of humility and can hopefully inspire other new software developers to act similarly.
+Subsequently, this website can hopefully inspire other new software developers to act similarly and create software for the school.
 
 ## Built With
 * HTML
